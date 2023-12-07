@@ -1,6 +1,7 @@
 package techproed.day03;
 
 import io.appium.java_client.AppiumBy;
+import io.appium.java_client.AppiumClientConfig;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import org.openqa.selenium.By;
@@ -31,15 +32,19 @@ public class C05_TemelEylemler extends ApiDemosBaseTest {
         By rightButton = AppiumBy.accessibilityId("Change Right");
 
         driver.findElement(app).click();
+
         driver.findElement(activity).click();
+
         driver.findElement(customTitle).click();
 
         driver.findElement(leftTextBox).clear();
+
         driver.findElement(leftTextBox).sendKeys("Gürkay");
+
         driver.findElement(leftButton).click();
 
         driver.findElement(rightTextBox).clear();
-        driver.setClipboardText("Gürkay"); // ctrl+c Komutunun işlevini görür
+        driver.setClipboardText("Esat"); // ctrl+c Komutunun işlevini görür
         driver.findElement(rightTextBox).sendKeys(driver.getClipboardText());
         driver.findElement(rightButton).click();
 

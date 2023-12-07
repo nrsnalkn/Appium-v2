@@ -10,7 +10,7 @@ import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class C03_Locators {
+public class C02_Locators {
     @Test
     public void testLocators() throws MalformedURLException {
         String appUrl = System.getProperty("user.dir")

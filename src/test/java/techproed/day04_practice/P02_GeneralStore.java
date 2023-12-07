@@ -1,7 +1,6 @@
-package techproed.day_04practice;
+package techproed.day04_practice;
 
 import io.appium.java_client.AppiumBy;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -55,8 +54,8 @@ public class P02_GeneralStore extends GeneralStoreBaseTest {
         Thread.sleep(5000);
         double total = 0;
         for (WebElement w:products) {
-
             String priceText = w.getText();
+            Thread.sleep(5000);
             double price = Double.parseDouble(priceText.substring(1));
             total += price;
         }

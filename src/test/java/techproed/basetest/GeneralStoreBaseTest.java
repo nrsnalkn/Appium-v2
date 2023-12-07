@@ -4,13 +4,14 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import techproed.utilities.ReusableMethods;
 
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 
-public class ApiDemosBaseTest {
+public class GeneralStoreBaseTest extends ReusableMethods {
     protected AndroidDriver driver;
 
     @BeforeClass
@@ -19,7 +20,7 @@ public class ApiDemosBaseTest {
                 + File.separator + "src"
                 + File.separator + "test"
                 + File.separator + "resources"
-                + File.separator + "ApiDemos-debug.apk";
+                + File.separator + "General-Store.apk";
 
         UiAutomator2Options options = new UiAutomator2Options()
                 .setApp(appUrl);
