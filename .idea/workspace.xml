@@ -4,52 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65f8a637-8533-4745-b6b5-869cd691b938" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/basetest/HaritalarBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/basetest/KitapYurduBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/basetest/TelefonBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/basetest/VodQABaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day07/C13_FlingGesture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day07/C14_PinchOpenGesture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day08practice/P05_Telefon_LongClickGesture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day08practice/P06_KitapYurdu_ScrollSwipeGestures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day08practice/P07_Harita_PinchOpenAndClose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day10/C18_PointerInput_Swipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day10/C19_PointerInput_Fling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day10/C20_PointerInput_DragAndDrop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day10/C21_PointerInput_ZoomIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day10/C22_PointerInput_ZoomOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ReusableMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Kitapyurdu_8.47.2_Apkpure.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/VodQA.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/basetest/ApiDemosBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/basetest/ApiDemosBaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/basetest/CalculatorBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/basetest/CalculatorBaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/basetest/GeneralStoreBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/basetest/GeneralStoreBaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/basetest/MyDemoAppBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/basetest/MyDemoAppBaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day01/C01_SetupDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day01/C01_SetupDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day02/C01_Capabilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day02/C01_Capabilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day02/C02_Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day02/C02_Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day03/C04_NativeElementleriTanimlama.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day03/C04_NativeElementleriTanimlama.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day03/C05_TemelEylemler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day03/C05_TemelEylemler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day03/C06_ElementDegerleriniCekme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day03/C06_ElementDegerleriniCekme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day04_practice/P01_ApiDemos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day04_practice/P01_ApiDemos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day04_practice/P02_GeneralStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day04_practice/P02_GeneralStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day05_practice/P03_GeneralStore_NegativeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day05_practice/P03_GeneralStore_NegativeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day05_practice/P04_MyDemoApp_ColorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day05_practice/P04_MyDemoApp_ColorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day06/C07_ClickGesture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day06/C07_ClickGesture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day06/C08_DoubleClickGesture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day06/C08_DoubleClickGesture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day06/C09_LongClickGesture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day06/C09_LongClickGesture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day06/C10_DragGesture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day06/C10_DragGesture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day07/C11_ScrollGesture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day07/C11_ScrollGesture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day07/C12_SwipeGesture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day07/C12_SwipeGesture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/ReusableMethots.java" beforeDir="false" />
-    </list>
+    <list default="true" id="65f8a637-8533-4745-b6b5-869cd691b938" name="Changes" comment="v1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -204,6 +159,14 @@
       <option name="presentableId" value="Default" />
       <updated>1700938673206</updated>
     </task>
+    <task id="LOCAL-00001" summary="v1">
+      <created>1701969870132</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701969870132</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,5 +179,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1" />
   </component>
 </project>
