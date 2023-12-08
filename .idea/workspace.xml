@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65f8a637-8533-4745-b6b5-869cd691b938" name="Changes" comment="v1" />
+    <list default="true" id="65f8a637-8533-4745-b6b5-869cd691b938" name="Changes" comment="v1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/basetest/DeviceBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day11/C23_UygulamaEtkilesimleri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day11/C24_EkranKilidi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day11/C25_Klavye.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day07/C11_ScrollGesture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day07/C11_ScrollGesture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/day07/C12_SwipeGesture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/day07/C12_SwipeGesture.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,22 +54,22 @@
       <recent name="C:\Users\Administrator\IdeaProjects\Appium_Upskills\src\test\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="techproed.day10" />
       <recent name="techproed.basetest" />
+      <recent name="techproed.day10" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C21_PointerInput_ZoomIn.testZoomIn">
-    <configuration name="C18_PointerInput_Swipe.testSwipe" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C24_EkranKilidi.testLockDevice">
+    <configuration name="C23_UygulamaEtkilesimleri.testQueryAppState" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Appium_Upskills" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day10.*" />
+          <option name="PATTERN" value="techproed.day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day10" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day10.C18_PointerInput_Swipe" />
-      <option name="METHOD_NAME" value="testSwipe" />
+      <option name="PACKAGE_NAME" value="techproed.day11" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day11.C23_UygulamaEtkilesimleri" />
+      <option name="METHOD_NAME" value="testQueryAppState" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -69,17 +77,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C20_PointerInput_DragAndDrop.testDragAndDrop" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C24_EkranKilidi.testLockDevice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Appium_Upskills" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day10.*" />
+          <option name="PATTERN" value="techproed.day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day10" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day10.C20_PointerInput_DragAndDrop" />
-      <option name="METHOD_NAME" value="testDragAndDrop" />
+      <option name="PACKAGE_NAME" value="techproed.day11" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day11.C24_EkranKilidi" />
+      <option name="METHOD_NAME" value="testLockDevice" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -87,34 +95,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C21_PointerInput_ZoomIn" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C24_EkranKilidi.testUnLockDevice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Appium_Upskills" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day10.*" />
+          <option name="PATTERN" value="techproed.day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day10" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day10.C21_PointerInput_ZoomIn" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C21_PointerInput_ZoomIn.testZoomIn" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Appium_Upskills" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.day10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.day10" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day10.C21_PointerInput_ZoomIn" />
-      <option name="METHOD_NAME" value="testZoomIn" />
+      <option name="PACKAGE_NAME" value="techproed.day11" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day11.C24_EkranKilidi" />
+      <option name="METHOD_NAME" value="testUnLockDevice" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -122,17 +113,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C22_PointerInput_ZoomOut.testZoomIn" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C25_Klavye.testIsKeyboardShown" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Appium_Upskills" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.day10.*" />
+          <option name="PATTERN" value="techproed.day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.day10" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day10.C22_PointerInput_ZoomOut" />
-      <option name="METHOD_NAME" value="testZoomIn" />
+      <option name="PACKAGE_NAME" value="techproed.day11" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day11.C25_Klavye" />
+      <option name="METHOD_NAME" value="testIsKeyboardShown" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C25_Klavye.testPressKey" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Appium_Upskills" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.day11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.day11" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day11.C25_Klavye" />
+      <option name="METHOD_NAME" value="testPressKey" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -142,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C21_PointerInput_ZoomIn.testZoomIn" />
-        <item itemvalue="TestNG.C21_PointerInput_ZoomIn" />
-        <item itemvalue="TestNG.C22_PointerInput_ZoomOut.testZoomIn" />
-        <item itemvalue="TestNG.C20_PointerInput_DragAndDrop.testDragAndDrop" />
-        <item itemvalue="TestNG.C18_PointerInput_Swipe.testSwipe" />
+        <item itemvalue="TestNG.C24_EkranKilidi.testLockDevice" />
+        <item itemvalue="TestNG.C25_Klavye.testPressKey" />
+        <item itemvalue="TestNG.C25_Klavye.testIsKeyboardShown" />
+        <item itemvalue="TestNG.C24_EkranKilidi.testUnLockDevice" />
+        <item itemvalue="TestNG.C23_UygulamaEtkilesimleri.testQueryAppState" />
       </list>
     </recent_temporary>
   </component>

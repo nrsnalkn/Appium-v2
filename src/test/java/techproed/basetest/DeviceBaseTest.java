@@ -11,19 +11,17 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 
-public class ApiDemosBaseTest extends ReusableMethods {
+public class DeviceBaseTest extends ReusableMethods {
+    //boş testbase herhangi bir app açmaz cihaz acar cihaz testi için kullanılır
+    // driver kullanmak için oluşturuldu
     protected AndroidDriver driver;
 
     @BeforeClass
     public void setup() throws MalformedURLException {
-        String appUrl = System.getProperty("user.dir")
-                + File.separator + "src"
-                + File.separator + "test"
-                + File.separator + "resources"
-                + File.separator + "ApiDemos-debug.apk";
 
         UiAutomator2Options options = new UiAutomator2Options()
-                .setApp(appUrl);
+                .setUnlockType("pattern")//pin seceneğide kullanılabilir
+                .setUnlockKey("1236");
 
         URL url = new URL("http://0.0.0.0:4723");
 
@@ -33,6 +31,6 @@ public class ApiDemosBaseTest extends ReusableMethods {
 
     @AfterClass
     public void afterClass() {
-       // driver.quit();
+        driver.quit();
     }
 }
