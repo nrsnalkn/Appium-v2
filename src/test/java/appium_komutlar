@@ -1,0 +1,45 @@
+Appium Komutları
+
+npm install -g appium     ---    yükleme
+npm update -g appium     --- update etme
+npm uninstall -g appium  --- kaldırma
+where appium             --- nerde oldugunu ögrenme
+appium                başlatma
+
+
+appium driver list    driver listeler
+appium driver list --installed   -> yüklü direver listeler
+appium driver list --updates   ->güncelleme yapar
+appium driver install uiautomator2  -> yükler
+appium driver update uiautomator2  ->güncelleme yapar
+
+java 11 yada java 15 yüklemek gerekiyor
+
+%ANDROID_HOME%platform-tools
+%ANDROID_HOME%cmdline-tools
+
+appium-doctor --android    hata varmı diye kontrpl için
+appium doctor              yükleme için
+
+appium server ve uiAutomator2 güncel olmalı sürekli kontrol etmek lazım
+
+https://inspector.appiumpro.com/
+10:34
+appium --allow-cors
+
+
+appium chrome yükleme
+appium --allow-insecure chromedriver_autodownload
+
+
+ADB komutları
+dumpsys window | grep -E "mCurrentFocus"  ---> appPackage ve appActivity yolu alinir
+
+adb devices --> bilgisayara bagli cihazlari listeler
+adb shell dumpsys window | find "mCurrentFocus"  --->appPackage ve appActivity yolu alinir
+
+adb shell
+dumpsys activity activities | grep mResumedActivity
+
+kapalı cihazı açmak için paht yolu
+%ANDROID_HOME%\cmdline-tools\latest\bin

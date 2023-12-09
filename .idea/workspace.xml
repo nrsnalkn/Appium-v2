@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65f8a637-8533-4745-b6b5-869cd691b938" name="Changes" comment="v1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/basetest/ChromeBrowserBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day12/C26_HibritUygulamaTesti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day12/C27_MobilWebUygulamaTesti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/appium_komutlar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day13_practice/P08_HibritUygulama_GeneralStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/day13_practice/P09_MobilWebUygulama_KitapYurdu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/basetest/DeviceBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/basetest/DeviceBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ReusableMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,42 +56,7 @@
       <recent name="techproed.day10" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C27_MobilWebUygulamaTesti.testBrowser">
-    <configuration name="C21_PointerInput_ZoomIn" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Appium_Upskills" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.day10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.day10" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day10.C21_PointerInput_ZoomIn" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C21_PointerInput_ZoomIn.testZoomIn" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Appium_Upskills" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.day10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.day10" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day10.C21_PointerInput_ZoomIn" />
-      <option name="METHOD_NAME" value="testZoomIn" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.P09_MobilWebUygulama_KitapYurdu.testRegister">
     <configuration name="C26_HibritUygulama" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Appium_Upskills" />
       <extension name="coverage">
@@ -103,24 +68,6 @@
       <option name="PACKAGE_NAME" value="techproed.day12" />
       <option name="MAIN_CLASS_NAME" value="techproed.day12.C26_HibritUygulama" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C26_HibritUygulama.testHibrit" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Appium_Upskills" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.day12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.day12" />
-      <option name="MAIN_CLASS_NAME" value="techproed.day12.C26_HibritUygulama" />
-      <option name="METHOD_NAME" value="testHibrit" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -145,13 +92,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P08_HibritUygulama_GeneralStore.testGeneralStore" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Appium_Upskills" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.day13_practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.day13" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day13_practice.P08_HibritUygulama_GeneralStore" />
+      <option name="METHOD_NAME" value="testGeneralStore" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P08_HibritUygulama_GeneralStore.testGeneralStore" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Appium_Upskills" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.day13_practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.day13" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day13_practice.P08_HibritUygulama_GeneralStore" />
+      <option name="METHOD_NAME" value="testGeneralStore" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P09_MobilWebUygulama_KitapYurdu.testRegister" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Appium_Upskills" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.day13_practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.day13_practice" />
+      <option name="MAIN_CLASS_NAME" value="techproed.day13_practice.P09_MobilWebUygulama_KitapYurdu" />
+      <option name="METHOD_NAME" value="testRegister" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.P09_MobilWebUygulama_KitapYurdu.testRegister" />
+        <item itemvalue="TestNG.P08_HibritUygulama_GeneralStore.testGeneralStore" />
+        <item itemvalue="TestNG.P08_HibritUygulama_GeneralStore.testGeneralStore (1)" />
         <item itemvalue="TestNG.C27_MobilWebUygulamaTesti.testBrowser" />
         <item itemvalue="TestNG.C26_HibritUygulama" />
-        <item itemvalue="TestNG.C26_HibritUygulama.testHibrit" />
-        <item itemvalue="TestNG.C21_PointerInput_ZoomIn" />
-        <item itemvalue="TestNG.C21_PointerInput_ZoomIn.testZoomIn" />
       </list>
     </recent_temporary>
   </component>

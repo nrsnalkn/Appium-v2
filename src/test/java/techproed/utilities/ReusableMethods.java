@@ -91,4 +91,11 @@ public class ReusableMethods {
                 "speed", speed
         ));
     }
+    /*
+   //textini aldıgımız elementi android by uıautomator ile bulur uzerine scroll yapar
+    public void scrolToElementByText(AndroidDriver driver,String elementText) {
+
+        driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\""+elementText+"\"))"));
+    }
+     */
 }
